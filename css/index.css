@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
 }
@@ -10,23 +9,24 @@
   transition: width 0.2s ease;
 }
 
-.jumbotron{
+.jumbotron {
   padding: 300px;
-      padding-top: 300px;
-      /* padding-left: 50%;
+  padding-top: 300px;
+  /* padding-left: 50%;
       padding-bottom: 30px; */
   color: #fff;
   background-color: #eee;
-  height: 700px;
+  height: 1000px;
   font-family: 'Open Sans', sans-serif;
   /* background: -webkit-linear-gradient(rgba(52,73,94,0.8), rgba(52,73,94,0.8)) no-repeat center center fixed; */
-  background: linear-gradient(rgba(52,73,94,0.8), rgba(52,73,94,0.8)) no-repeat center center fixed;
-      background-size:   auto auto, auto auto;
+  /* background: linear-gradient(rgba(52,73,94,0.8), rgba(52,73,94,0.8)) no-repeat center center fixed; */
+  background-image: url(./../pictures/joe-mania-116439-unsplash.jpg);
+  background-size: auto auto, auto auto;
   /* background-size: cover; */
   text-transform: capitalize;
 }
 
-.container{
+.container {
   padding-top: 220px;
 }
 
@@ -34,20 +34,20 @@
   color: inherit;
   font-size: 50px;
   text-align: center;
-  margin: 0 auto; 
+  margin: 0 auto;
   font-weight: 100;
   letter-spacing: 3px;
   text-transform: uppercase;
 }
 
-  .spacer {
+.spacer {
   clear: both;
   height: 25px;
 }
 
 .drawer {
   background: #333;
-  box-shadow: 0 0 50px 50px rgba(0,0,0,0.5);
+  box-shadow: 0 0 50px 50px rgba(0, 0, 0, 0.5);
   color: white;
   position: absolute;
   overflow: auto;
@@ -68,50 +68,57 @@
   letter-spacing: 2px;
   color: inherit;
 }
+
 .text-center {
   text-align: center;
 }
+
 h2, .h2 {
   font-size: 30px;
 }
-h1, .h1, h2, .h2,{
+
+h1, .h1, h2, .h2, 
+{
   margin-top: 20px;
   /* margin-bottom: 10px; */
-  font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1;
 }
-h1{
-  text-align:center;
+
+h1 {
+  text-align: center;
 }
+
 /* End of jumbotron ->1st */
 
 /* About section start*/
-.about_section {  
+.about_section {
   font-size: 56px;
   text-align: center;
-  margin-top: -35px;
+  /* margin-top: -35px; */
   letter-spacing: 3px;
   font-weight: 500;
   color: #34495e;
   text-transform: capitalize;
-  padding-top: 28px;
-  padding-bottom: 18px;
+  padding-top: 48px !important;
+  /* padding-bottom: 18px; */
   /* background-color: #eee; */
 }
 
-.about{
+.about {
   background-color: #eee;
-  height: 670px;
+  height: 710px;
 
 }
+
 /* end of about section */
 
 /* skills section starts */
 
-.section{
+.section {
   font-size: 56px;
   text-align: center;
-  margin-top: -35px;
+  /* margin-top: -35px; */
   letter-spacing: 3px;
   font-weight: 500;
   color: #2b3641;
@@ -121,7 +128,8 @@ h1{
   /* height: 200px; */
   background: rgb(202, 148, 148);
 }
-#skills{
+
+#skills {
   height: 35px;
 }
 
@@ -135,56 +143,52 @@ h1{
   font-family: monospace;
   /* color: #eee; */
   /* margin: 10px, 0px; */
-} 
-/* .progress {
-  background-color: #150224;
-  border: 0;
-  height: 2.5em;
-  width: 100%;
-  font-size: 1 rem;
-} */
-
+}
 
 /* end of skills section */
 
 /* What i do section starts */
 
-#what-i-do{
+#what-i-do {
 
   font-size: 56px;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 50px;
   letter-spacing: 3px;
   font-weight: 500;
   color: #34495e;
   text-transform: capitalize;
-
+  padding-top: 20px;
 }
+
 .visible-lg {
   display: block important;
 }
+
 .work {
   /* background: -webkit-linear-gradient(rgba(52,73,94,0.8), rgba(52,73,94,0.8)) no-repeat center center; */
   background: linear-gradient(rgba(235, 177, 185, 0.856), rgba(68, 46, 12, 0.8)) no-repeat center center;
-      background-size: auto auto, auto auto;
+  background-size: auto auto, auto auto;
   height: 350px;
   background-size: cover;
   padding-top: 20px;
   width: 100%;
   padding-left: 10px;
   padding-right: 10px;
-  
+
 }
+
 /* end of what i do section */
 
 /* recent work css starts  */
 
-.recent_work{
+.recent_work {
 
   background-color: #eee;
   text-align: center;
-  
+
 }
+
 /* end of recent work */
 
 /* Reach me starts here */
@@ -194,8 +198,9 @@ h1{
   background-color: magenta;
   border: none;
   padding: 20px;
-  width: 200px;
+  width: 320px;
   transition: all 0.5s;
+  text-align: center;
 }
 
 
@@ -204,6 +209,7 @@ h1{
   display: inline-block;
   position: relative;
   transition: 0.5s;
+  text-align: center;
 }
 
 .button-two span:after {
@@ -217,51 +223,55 @@ h1{
 
 .button-two:hover span {
   padding-right: 25px;
-  color: #000000;
+  color: #fff;
 }
 
 .button-two:hover span:after {
   opacity: 1;
   right: 0;
 }
-.sub-main{
-  width: 30%;
-  margin:22px;
+
+.sub-main {
+  width: 40%;
+  margin: 22px;
   float: left;
 }
-.button-two{
+
+.button-two {
   text-align: center;
   cursor: pointer;
-  font-size:24px;
-  margin: 0 0 0 520px;;
+  font-size: 24px;
+  margin: 0 0 0 520px;
+  ;
 }
 
-.email{
+.email {
   color: #e0eaf0;
 }
+
 /* End of reach me */
 
-.img{
+.img {
   width: 32px;
   height: 32px;
-} 
+}
 
 #myBtn {
-display: none;
-position: fixed;
-bottom: 20px;
-right: 30px;
-z-index: 99;
-font-size: 6px;
-border: none;
-outline: none;
-background-color:transparent;
-color: rgb(32, 30, 30);
-cursor: pointer;
-padding: 10px;
-border-radius: 2px;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 6px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: rgb(32, 30, 30);
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 2px;
 }
 
 #myBtn:hover {
-background-color: violet;
+  background-color: #afd3f7;
 }
